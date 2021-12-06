@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "355689810475",
+    "firebase_url": "https://studenthelpprojectdb-default-rtdb.firebaseio.com",
+    "project_id": "studenthelpprojectdb",
+    "storage_bucket": "studenthelpprojectdb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:355689810475:android:0175a4ff4115dbd91fb86e",
+        "android_client_info": {
+          "package_name": "com.lasalle.exercie.studenthelpproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "355689810475-a9i886dknhfg7jvnmt614cntoj2780s2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAs0smZ2gSLg8fEkj24qXybn4JNf7P3za8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "355689810475-a9i886dknhfg7jvnmt614cntoj2780s2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

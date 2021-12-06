@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TutorStudentAssignment">
+
+
+
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        app:srcCompat="@drawable/logo"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="15dp" />
+
+    <TextView
+        android:id="@+id/tvHeading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Student Tutor Assignment"
+        android:textSize="20dp"
+        app:layout_constraintTop_toBottomOf="@id/tvTitle"
+        app:layout_constraintLeft_toRightOf="@id/imgLogo"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="STUDENT HELP"
+        android:textSize="30dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/imgLogo"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="30dp"/>
+
+
+
+    <TextView
+        android:id="@+id/tvStudenIdLable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="StudentId : "
+        android:textSize="20sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvHeading"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        />
+
+    <TextView
+        android:id="@+id/tvStudenId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="...... "
+        android:textSize="20sp"
+        app:layout_constraintLeft_toRightOf="@id/tvStudenIdLable"
+        app:layout_constraintBaseline_toBaselineOf="@id/tvStudenIdLable"
+        android:layout_marginLeft="10dp"
+        />
+    <TextView
+        android:id="@+id/tvTutorList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="list of Tutors "
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@id/tvStudenIdLable"
+        app:layout_constraintStart_toStartOf="@id/tvStudenIdLable"
+        android:layout_marginTop="20dp"
+
+        />
+
+    <ListView
+        android:id="@+id/lvListTutors"
+        android:layout_width="380dp"
+        android:layout_height="150dp"
+        app:layout_constraintTop_toBottomOf="@id/tvTutorList"
+        app:layout_constraintStart_toStartOf="@id/tvTutorList">
+
+    </ListView>
+    <TextView
+        android:id="@+id/tvTutorialdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tutorial date "
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@id/lvListTutors"
+        app:layout_constraintStart_toStartOf="@id/tvStudenIdLable"
+        android:layout_marginTop="20dp"
+
+        />
+
+    <EditText
+        android:id="@+id/edTutorialDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="13"
+        android:inputType="date"
+        android:hint="Please enter Date (2021-05-01)"
+        android:text=""
+        app:layout_constraintTop_toBottomOf="@id/lvListTutors"
+        app:layout_constraintBaseline_toBaselineOf="@id/tvTutorialdate"
+        app:layout_constraintLeft_toRightOf="@id/tvTutorialdate"
+        android:layout_marginLeft="5dp"/>
+
+    <TextView
+        android:id="@+id/tvTutorailDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Description"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@id/tvTutorialdate"
+        app:layout_constraintStart_toStartOf="@id/tvTutorialdate"
+        android:layout_marginTop="20dp"
+
+        />
+
+    <EditText
+        android:id="@+id/edTutorialDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="13"
+        android:inputType="date"
+        android:text=""
+        app:layout_constraintBaseline_toBaselineOf="@id/tvTutorailDescription"
+        app:layout_constraintLeft_toRightOf="@id/tvTutorailDescription"
+        android:layout_marginLeft="5dp"/>
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RegisterAppointment"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginBottom="30dp"
+        android:textSize="20dp"
+        />
+    <TextView
+        android:id="@+id/tvTutorIdlable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TutorId : "
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@+id/tvTutorailDescription"
+        app:layout_constraintTop_toBottomOf="@id/tvTutorailDescription"
+        android:layout_marginTop="20dp"
+
+        />
+
+    <TextView
+        android:id="@+id/tvTutorId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="...... "
+        android:textSize="20sp"
+        app:layout_constraintBaseline_toBaselineOf="@id/tvTutorIdlable"
+        app:layout_constraintLeft_toRightOf="@id/tvTutorIdlable"
+        android:layout_marginLeft="10dp"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
