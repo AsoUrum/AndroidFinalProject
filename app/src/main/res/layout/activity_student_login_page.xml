@@ -4,7 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".StudentLoginPage">
+    tools:context=".StudentLoginPage"
+    android:background="#E3DFE5"
+>
 
     <ImageView
         android:id="@+id/imgLogo"
@@ -32,7 +34,7 @@
         android:id="@+id/tvWelcome"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text=" Welcome, Enter your information to explore our services"
+        android:text=" Welcome, Enter your information to explore our services."
         android:textAlignment="center"
         android:textSize="25sp"
         android:layout_marginTop="50dp"
@@ -96,5 +98,8 @@
         app:layout_constraintTop_toBottomOf="@id/edPassword"
         android:layout_marginBottom="30dp"
         android:textSize="25dp"
-        android:textAllCaps="false"/>
+        android:textAllCaps="false"
+        android:backgroundTint="#4A235A"
+
+        />
 </androidx.constraintlayout.widget.ConstraintLayout>

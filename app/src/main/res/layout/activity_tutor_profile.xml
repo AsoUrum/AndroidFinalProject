@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".tutorProfile">
+    tools:context=".tutorProfile"
+    android:background="#E3DFE5">
 
     <TextView
         android:id="@+id/tvTitle"
@@ -59,8 +60,9 @@
         app:layout_constraintBaseline_toBaselineOf="@id/tvWelcome"
         app:layout_constraintRight_toRightOf="parent"
         android:layout_marginRight="20dp"
-        android:textStyle="bold"
-        android:textSize="20sp"
+        android:textSize="17sp"
+        android:backgroundTint="#4A235A"
+        android:textAllCaps="false"
         />
 
     <TextView
@@ -116,6 +118,8 @@
         app:layout_constraintBaseline_toBaselineOf="@id/btnModify"
         app:layout_constraintLeft_toLeftOf="parent"
         android:layout_marginLeft="25dp"
+        android:backgroundTint="#4A235A"
+        android:textAllCaps="false"
         />
 
     <Button
@@ -127,6 +131,8 @@
         app:layout_constraintRight_toLeftOf="@id/button5"
         app:layout_constraintBottom_toBottomOf="parent"
         android:layout_marginBottom="40dp"
+        android:backgroundTint="#4A235A"
+        android:textAllCaps="false"
         />
 
     <Button
@@ -137,6 +143,8 @@
         app:layout_constraintBaseline_toBaselineOf="@id/btnModify"
         app:layout_constraintRight_toRightOf="parent"
         android:layout_marginRight="25dp"
+        android:backgroundTint="#4A235A"
+        android:textAllCaps="false"
         />
 
 

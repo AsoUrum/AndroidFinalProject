@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".TutorStudentAssignment">
+    tools:context=".TutorStudentAssignment"
+    android:background="#E3DFE5">
 
 
 
@@ -136,12 +137,14 @@
         android:id="@+id/btnRegister"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="RegisterAppointment"
+        android:text="Register Appointment"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         android:layout_marginBottom="30dp"
-        android:textSize="20dp"
+        android:textSize="18dp"
+        android:backgroundTint="#4A235A"
+        android:textAllCaps="false"
         />
     <TextView
         android:id="@+id/tvTutorIdlable"

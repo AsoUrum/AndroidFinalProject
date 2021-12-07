@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".StudentProfilePage">
+    tools:context=".StudentProfilePage"
+    android:background="#E3DFE5">
 
     <ImageView
         android:id="@+id/imageLogo"
@@ -55,8 +56,10 @@
         app:layout_constraintBaseline_toBaselineOf="@id/tvWelcomeStudent"
         app:layout_constraintRight_toRightOf="parent"
         android:layout_marginRight="20dp"
-        android:textStyle="bold"
-        android:textSize="20sp"/>
+        android:textSize="20sp"
+        android:backgroundTint="#4A235A"
+        android:textAllCaps="false"
+        />
     <TextView
         android:id="@+id/tvStudentsProfileTitle"
         android:layout_width="wrap_content"
@@ -122,6 +125,8 @@
         app:layout_constraintTop_toTopOf="@id/btnDelete"
         app:layout_constraintRight_toRightOf="parent"
         android:layout_marginRight="5dp"
+        android:backgroundTint="#4A235A"
+        android:textAllCaps="false"
         />
 
     <Button
@@ -132,6 +137,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         android:layout_marginBottom="20dp"
         app:layout_constraintStart_toStartOf="@id/imageLogo"
+        android:backgroundTint="#4A235A"
+        android:textAllCaps="false"
         />
 
     <Button
@@ -142,6 +149,8 @@
         app:layout_constraintTop_toTopOf="@id/btnDelete"
         app:layout_constraintLeft_toRightOf="@id/btnDelete"
         app:layout_constraintRight_toLeftOf="@id/btnGetHelp"
+        android:backgroundTint="#4A235A"
+        android:textAllCaps="false"
         />
 
 
